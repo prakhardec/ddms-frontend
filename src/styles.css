@@ -1,0 +1,22 @@
+/* styles.css */
+
+/* Folder styles */
+.folder {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* File styles */
+  .file {
+    padding-left: 20px;
+  }
+  
+  /* File icon */
+  .file:before {
+    content: "\f15b"; /* Unicode character for file icon */
+    font-family: "Font Awesome 5 Free"; /* Font Awesome library */
+    margin-right: 5px;
+  }
+  

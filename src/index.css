@@ -1,0 +1,497 @@
+:root {
+  --header-bg: #f9f9f9;
+  --header-height: 70px;
+  --header-profile-bg: #ecf0f9;
+  --primary: #168b86;
+  --primary-transparent: #168b8541;
+  --primary-transparent-light: #168b8515;
+
+  --header-icon-color: #98a6ad;
+  --header-font-color: #757575;
+  --font-color: #212121;
+  --font-color-9e: #9e9e9e;
+  --font-color-61: #616161;
+  --font-color-42: #424242;
+  --font-color-2b: #2b2525;
+  --font-color-c7: #c7c7c7;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+  width: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* Custom Styles */
+.ff-inter {
+  font-family: "Inter", sans-serif;
+}
+
+.ff-tw {
+  font-family: "Titillium Web", sans-serif;
+}
+
+.ff-os {
+  font-family: "Open Sans", sans-serif;
+}
+
+.fw-200 {
+  font-weight: 200 !important;
+}
+
+.fw-300 {
+  font-weight: 300 !important;
+}
+
+.fw-400 {
+  font-weight: 400 !important;
+}
+
+.fw-500 {
+  font-weight: 500 !important;
+}
+
+.fw-600 {
+  font-weight: 600 !important;
+}
+
+.fw-700 {
+  font-weight: 700 !important;
+}
+
+.fw-800 {
+  font-weight: 800 !important;
+}
+
+.fs-8 {
+  font-size: 8px !important;
+}
+
+.fs-10 {
+  font-size: 10px !important;
+}
+
+.fs-12 {
+  font-size: 12px !important;
+}
+
+.fs-14 {
+  font-size: 14px !important;
+}
+
+.fs-15 {
+  font-size: 15px !important;
+}
+
+.fs-16 {
+  font-size: 16px !important;
+}
+
+.fs-16-sm {
+  font-size: 16px !important;
+}
+
+.fs-18 {
+  font-size: 18px !important;
+}
+
+.fs-20 {
+  font-size: 20px !important;
+}
+
+.fs-24 {
+  font-size: 24px !important;
+}
+
+.fs-28 {
+  font-size: 28px !important;
+}
+
+.fs-32 {
+  font-size: 32px !important;
+}
+
+.fc-75 {
+  color: var(--header-font-color) !important;
+}
+
+.fc-21 {
+  color: var(--font-color) !important;
+}
+
+.fc-9e {
+  color: var(--font-color-9e) !important;
+}
+
+.fc-61 {
+  color: var(--font-color-61) !important;
+}
+
+.fc-42 {
+  color: var(--font-color-42) !important;
+}
+
+.fc-2b {
+  color: var(--font-color-2b) !important;
+}
+
+.fc-c7 {
+  color: var(--font-color-c7) !important;
+}
+
+.fc-cprimary {
+  color: var(--primary) !important;
+}
+
+.bg-cgradient {
+  background: #b993d6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #8ca6db,
+    #b993d6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #8ca6db,
+    #b993d6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bg-cprimary {
+  background-color: var(--primary) !important;
+}
+
+.bg-cprimary-transparent {
+  background-color: var(--primary-transparent) !important;
+}
+
+.bg-cprimary-transparent-light {
+  background-color: var(--primary-transparent-light) !important;
+}
+
+.bg-pending-transparent {
+  background-color: #f8ad5552 !important;
+}
+
+.bg-faulters-transparent {
+  background-color: #f89d9d41 !important;
+}
+
+.bg-secondary-light {
+  background-color: #00000020 !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.border-cprimary {
+  border: 1px solid var(--primary) !important;
+}
+
+.border-none {
+  border: none !important;
+}
+
+.border-wmg-dark {
+  border: 1px solid #4b8db1 !important;
+}
+
+.border-wmg-end {
+  border-right: 1px solid #4b8db1 !important;
+}
+.border-wmg-start {
+  border-left: 1px solid #4b8db1 !important;
+}
+.border-wmg-bottom {
+  border-bottom: 1px solid #4b8db1 !important;
+}
+.border-wmg-bottom-3 {
+  border-bottom: 3px solid #4b8db1 !important;
+}
+/* hide type='number' arrows */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.border-bottom-cprimary {
+  border-bottom: 1px solid var(--primary) !important;
+}
+.border-left-cprimary {
+  border-left: 4px solid var(--primary) !important;
+}
+
+.trans-3s {
+  transition: 150ms ease-in-out;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.bg-dark-trans {
+  background: #00000010 !important;
+}
+
+.bg-gray {
+  background: #f1f1f1;
+}
+.filter-chip {
+  border-radius: 99px;
+  border: 1px solid #5aa4d2 !important;
+  background-color: #5aa4d220;
+}
+
+.filter-chip-active {
+  color: white;
+  background: #5aa4d2;
+}
+
+.tab-button {
+  border: 0.125rem solid #e4e4e4;
+  border-bottom-color: transparent;
+}
+
+.inc-bg {
+  background: #f4f4f4 !important;
+}
+.tab-icon {
+  font-size: 1.5rem !important;
+  color: #4a8db1cc !important;
+  padding-right: 0.6rem !important;
+}
+
+.alert-text {
+  color: #4b5158 !important;
+  font-size: 1rem;
+  font-weight: 600 !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .fs-8 {
+    font-size: 6px !important;
+  }
+
+  .fs-10 {
+    font-size: 8px !important;
+  }
+
+  .fs-12 {
+    font-size: 10px !important;
+  }
+
+  .fs-14 {
+    font-size: 12px !important;
+  }
+
+  .fs-15 {
+    font-size: 13px !important;
+  }
+
+  .fs-16 {
+    font-size: 14px !important;
+  }
+  .fs-16-sm {
+    font-size: 11px !important;
+  }
+
+  .fs-18 {
+    font-size: 16px !important;
+  }
+
+  .fs-20 {
+    font-size: 18px !important;
+  }
+
+  .fs-24 {
+    font-size: 20px !important;
+  }
+
+  .fs-28 {
+    font-size: 24px !important;
+  }
+
+  .fs-32 {
+    font-size: 28px !important;
+  }
+
+  .tab-button {
+    border: 0.125rem solid #e4e4e4;
+  }
+
+  .inc-bg {
+    background: #f4f4f4 !important;
+  }
+  .tab-icon {
+    font-size: 1.5rem !important;
+    color: rgba(74, 141, 177, 0.8) !important;
+    padding-right: 0.6rem !important;
+  }
+
+  .alert-text {
+    color: #737373 !important;
+    font-size: 0.85rem;
+    font-weight: 200 !important;
+  }
+}
+
+.text-wmg {
+  color: #4b8db1 !important;
+}
+
+.bg-wmg {
+  background-color: #4b8db1 !important;
+}
+.border-wmg {
+  border: 1px solid #4b8db150 !important;
+}
+.swal2-styled {
+  background-color: #4b8db1 !important;
+  outline-color: #4b8db1 !important;
+  border-color: #4b8db1 !important;
+}
+
+.custom-scroll-bar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scroll-bar::-webkit-scrollbar-track {
+  background: #4b8db180;
+  border-radius: 10px;
+}
+
+/* Handle */
+.custom-scroll-bar::-webkit-scrollbar-thumb {
+  background: #4b8db1;
+  border-radius: 10px;
+}
+
+/* like animation */
+.heartAnimation {
+  width: 80px;
+  height: 100px;
+  background: url("https://cssanimation.rocks/images/posts/steps/heart.png");
+  background-position: 0 0;
+  cursor: pointer;
+  transition: background-position 1s steps(28);
+  transition-duration: 0s;
+  position: absolute;
+  right: 10px;
+  bottom: -10px;
+}
+
+.heartAnimation.active {
+  transition-duration: 1s;
+  background-position: -2800px 0;
+}
+
+.dislikeAnimation {
+  cursor: pointer;
+  transition: background-position 1s steps(28);
+  position: absolute;
+  right: 26px;
+  bottom: 90px;
+}
+
+.alert-fc {
+  color: #4b5158;
+}
+.fc-cred {
+  color: #9d2049;
+}
+.fc-cblue {
+  color: #5aa4d2;
+}
+.fc-cgreen {
+  color: #51b834;
+}
+.bg-cred {
+  background: #9d2049 !important;
+}
+.bg-cblue {
+  background: #5aa4d2 !important;
+}
+.bg-cgreen {
+  background: #51b834 !important;
+}
+
+.bg-cred-light {
+  background: #9d204999 !important;
+}
+.bg-cblue-light {
+  background: #5aa4d290 !important;
+}
+.bg-cgreen-light {
+  background: #51b83499 !important;
+}
+
+.jiggle-animation {
+  animation: shake 2s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+/* Safari */
+:-webkit-full-screen {
+  background-color: black;
+}
+
+/* IE11 */
+:-ms-fullscreen {
+  background-color: black;
+}
+
+/* Standard syntax */
+:fullscreen {
+  background-color: black;
+}
+
+.u-userLauncherColor {
+  background: #f57a3e !important;
+}
+
+.btn:focus {
+  outline: none;
+}
